@@ -75,16 +75,14 @@ manage/config/config.php.sample をリネームし、manage/config/config.php �
 まずはじめに管理画面の動作を確認しましょう。
 ドキュメントルート下にminiblog というフォルダ名で設置した場合のURL は次のようなものでしょう。
 
-	管理画面
-		http://localhost/miniblog/manage/index.php
+管理画面 http://localhost/miniblog/manage/index.php
 
 ID/パスワードによるアクセス制限はありませんので、すぐ管理画面が確認できるはずです。
 
 管理画面から何か一つ記事を作成して下さい。
 そうするとトップページが作成されます。
 
-	トップページ
-		http://localhost/miniblog/index.html
+トップページ http://localhost/miniblog/index.html
 
 トップページが確認できたら、作業終了です。
 
@@ -98,8 +96,7 @@ ID/パスワードによるアクセス制限はありませんので、すぐ�
 	Copyright 2011-2014 Twitter, Inc.
 	Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 
-favicon はこちらのものを利用しています。
-	http://nonty.net/item/favicon/
+うさぎのfavicon は[こちら](http://nonty.net/item/favicon/)のものを利用しています。
 
 ライセンス(使用許可)
 --------------------
