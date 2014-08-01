@@ -57,8 +57,8 @@ mysql> CREATE DATABASE miniblog CHARACTER SET UTF8;
 mysql> use miniblog;
 mysql> CREATE TABLE myblog (
 	id			DATE PRIMARY KEY,
-	title		text NOT NULL,
-	body		text NOT NULL,
+	title		TEXT NOT NULL,
+	body		TEXT NOT NULL,
 	created		DATETIME NOT NULL,
 	modified	DATETIME NOT NULL
 ) Engine=InnoDB;
@@ -73,16 +73,17 @@ manage/config/config.php.sample をリネームし、manage/config/config.php �
 
 ### 動作確認 ###
 まずはじめに管理画面の動作を確認しましょう。
+
 ドキュメントルート下にminiblog というフォルダ名で設置した場合のURL は次のようなものでしょう。
 
-管理画面 http://localhost/miniblog/manage/index.php
+http://localhost/miniblog/manage/index.php
 
 ID/パスワードによるアクセス制限はありませんので、すぐ管理画面が確認できるはずです。
 
 管理画面から何か一つ記事を作成して下さい。
-そうするとトップページが作成されます。
+そうするとトップページが作成されます。このURL から確認できます。
 
-トップページ http://localhost/miniblog/index.html
+http://localhost/miniblog/index.html
 
 トップページが確認できたら、作業終了です。
 
@@ -92,9 +93,9 @@ ID/パスワードによるアクセス制限はありませんので、すぐ�
 
 一般画面は、Bootstrap のサンプル http://getbootstrap.com/examples/blog/ を使用いたしました。
 
-	Bootstrap v3.2.0 (http://getbootstrap.com)
-	Copyright 2011-2014 Twitter, Inc.
-	Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+> Bootstrap v3.2.0 (http://getbootstrap.com)
+> Copyright 2011-2014 Twitter, Inc.
+> Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 
 うさぎのfavicon は[こちら](http://nonty.net/item/favicon/)のものを利用しています。
 
