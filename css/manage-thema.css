@@ -1,0 +1,12 @@
+h1 {
+	background: #888;
+	padding: 20px;
+}
+
+body {
+	background: #eee;
+}
+
+section {
+	border-bottom: solid 1px;
+}

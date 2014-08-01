@@ -1,0 +1,6 @@
+<form action="regist.php" method="POST">
+	日付：<input type="text" name="date" value="{$env['date']}">(4桁-2桁-2桁)<span class="error">{$env[error][date]}</span><br>
+	タイトル：<input type="text" name="title" value="{$env['title']}"><span class="error">{$env[error][title]}</span><br>
+	本文：<textarea name="body">{$env['body']}</textarea><span class="error">{$env[error][body]}</span><br>
+	<input type="submit">
+</form>

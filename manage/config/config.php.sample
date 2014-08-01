@@ -1,0 +1,8 @@
+<?php
+$ENV = array(
+	// MEMO ホスト名はlocalhost, DB 名はminiblog でutil.php に直書きし固定されている
+	'database' => array(
+		'ID'		=> '',	// mysql へ接続する時のユーザー名を指定して下さい
+		'PASSWORD'	=> '',	// mysql へ接続する時のパスワードを指定して下さい
+	),
+);

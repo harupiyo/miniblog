@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+	<title>Mini Blog System</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="{$env[basepath]}images/gif894/tmgif89401_ani.gif">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="{$env[basepath]}css/blog.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item active" href="{$env[basepath]}index.html">Home</a>
+          <a class="blog-nav-item" href="{$env[basepath]}new_features.html">New features</a>
+          <a class="blog-nav-item" href="{$env[basepath]}about.html">About</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="blog-header">
+        <h1 class="blog-title">Mini Blog</h1>
+        <p class="lead blog-description">The official blog of Mini Blog.</p>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+		  {$env[body]}
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>小さなBlog システムです。PHP の勉強の素材としてどうぞ。</p>
+          </div>
+          <div class="sidebar-module">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+			  {$env[archives]}
+            </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <div class="blog-footer">
+      <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+      <p>&copy; harupiyo 2014</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+	<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
+

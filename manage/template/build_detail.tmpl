@@ -1,0 +1,11 @@
+          <article class="blog-post">
+            <h2 class="blog-post-title">{$env[title]}</h2>
+            <p class="blog-post-meta">{$env[date]}</p>
+			<p>{$env[body]}</p>
+          </article><!-- /.blog-post -->
+          <nav>
+            <ul class="pager">
+		      {$env[prev]}
+		      {$env[next]}
+            </ul>
+          </nav>
